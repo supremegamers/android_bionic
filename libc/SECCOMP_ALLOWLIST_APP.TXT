@@ -56,3 +56,6 @@ int compat_select:_newselect(int n, unsigned long* inp, unsigned long* outp, uns
 
 # b/62090571
 int mkdir(const char *pathname, mode_t mode)	lp32
+
+# mesa
+int kcmp(pid_t pid1, pid_t pid2, int type, unsigned long idx1, unsigned long idx2) all

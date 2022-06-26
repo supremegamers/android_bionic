@@ -365,3 +365,6 @@ ssize_t getrandom(void*, size_t, unsigned) all
 int __pidfd_open:pidfd_open(pid_t, unsigned int) all
 int __pidfd_getfd:pidfd_getfd(int, int, unsigned int) all
 int pidfd_send_signal(int, int, siginfo_t*, unsigned int) all
+
+# mesa
+int kcmp(pid_t pid1, pid_t pid2, int type, unsigned long idx1, unsigned long idx2) all
